@@ -1,0 +1,31 @@
+.container{
+    width: 80px; 
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+.item{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(76, 49, 249);
+    border: 5px solid blue;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10px ;
+}
+.item -1{
+    flex-grow: 1.0;
+}
+.item -2{
+    flex-grow: 1.0;
+}
+.item -3{
+    flex-grow: 1.0;
+}
